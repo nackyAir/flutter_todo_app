@@ -1,0 +1,225 @@
+# GitHub Labels Configuration for React Native Todo App
+
+# 🏷️ Type Labels - 作業の種類
+- name: "feature"
+  color: "0e8a16"
+  description: "新機能の追加"
+  
+- name: "bug"
+  color: "d73a4a"
+  description: "バグ修正"
+  
+- name: "enhancement"
+  color: "a2eeef"
+  description: "既存機能の改善"
+  
+- name: "documentation"
+  color: "0075ca"
+  description: "ドキュメント関連"
+  
+- name: "refactor"
+  color: "ffffff"
+  description: "リファクタリング"
+  
+- name: "test"
+  color: "d4c5f9"
+  description: "テスト関連"
+
+# 🎯 Priority Labels - 優先度
+- name: "priority: critical"
+  color: "b60205"
+  description: "最優先 - 即座に対応が必要"
+  
+- name: "priority: high"
+  color: "d93f0b"
+  description: "高優先度"
+  
+- name: "priority: medium"
+  color: "fbca04"
+  description: "中優先度"
+  
+- name: "priority: low"
+  color: "0e8a16"
+  description: "低優先度"
+
+# 📱 Platform Labels - プラットフォーム
+- name: "platform: ios"
+  color: "007aff"
+  description: "iOS関連"
+  
+- name: "platform: android"
+  color: "3ddc84"
+  description: "Android関連"
+  
+- name: "platform: web"
+  color: "61dafb"
+  description: "Web関連"
+  
+- name: "platform: all"
+  color: "8b5cf6"
+  description: "全プラットフォーム共通"
+
+# 🛠️ Technology Labels - 技術スタック
+- name: "react-native"
+  color: "61dafb"
+  description: "React Native関連"
+  
+- name: "expo"
+  color: "000020"
+  description: "Expo関連"
+  
+- name: "firebase"
+  color: "ffa000"
+  description: "Firebase関連"
+  
+- name: "typescript"
+  color: "3178c6"
+  description: "TypeScript関連"
+  
+- name: "ui/ux"
+  color: "f9ca24"
+  description: "UI/UX改善"
+  
+- name: "navigation"
+  color: "7b68ee"
+  description: "ナビゲーション関連"
+
+# 🎨 Component Labels - コンポーネント
+- name: "component: todo-item"
+  color: "ff6b6b"
+  description: "TodoItemコンポーネント"
+  
+- name: "component: add-form"
+  color: "4ecdc4"
+  description: "AddTodoFormコンポーネント"
+  
+- name: "component: stats"
+  color: "45b7d1"
+  description: "統計カード関連"
+  
+- name: "component: auth"
+  color: "f7b731"
+  description: "認証関連コンポーネント"
+
+# 🏗️ Architecture Labels - アーキテクチャ
+- name: "architecture: context"
+  color: "6c5ce7"
+  description: "Context API関連"
+  
+- name: "architecture: hooks"
+  color: "a29bfe"
+  description: "カスタムフック関連"
+  
+- name: "architecture: types"
+  color: "fd79a8"
+  description: "型定義関連"
+  
+- name: "architecture: utils"
+  color: "00b894"
+  description: "ユーティリティ関数"
+
+# 🔧 Status Labels - ステータス
+- name: "status: in-progress"
+  color: "0052cc"
+  description: "作業中"
+  
+- name: "status: ready-for-review"
+  color: "fbca04"
+  description: "レビュー待ち"
+  
+- name: "status: needs-testing"
+  color: "d73a4a"
+  description: "テストが必要"
+  
+- name: "status: blocked"
+  color: "b60205"
+  description: "ブロック中"
+  
+- name: "status: on-hold"
+  color: "fef2c0"
+  description: "保留中"
+
+# 📦 Release Labels - リリース
+- name: "release: patch"
+  color: "c2e0c6"
+  description: "パッチリリース (x.x.X)"
+  
+- name: "release: minor"
+  color: "bfd4f2"
+  description: "マイナーリリース (x.X.x)"
+  
+- name: "release: major"
+  color: "f9d0c4"
+  description: "メジャーリリース (X.x.x)"
+
+# 🎓 Experience Labels - 開発者レベル
+- name: "good first issue"
+  color: "7057ff"
+  description: "初心者におすすめの課題"
+  
+- name: "help wanted"
+  color: "008672"
+  description: "ヘルプが必要"
+  
+- name: "mentor available"
+  color: "0e8a16"
+  description: "メンターサポート有り"
+
+# 🚀 Feature Categories - 機能カテゴリ
+- name: "feature: todo-management"
+  color: "ff9ff3"
+  description: "Todo管理機能"
+  
+- name: "feature: user-auth"
+  color: "f368e0"
+  description: "ユーザー認証機能"
+  
+- name: "feature: statistics"
+  color: "ff6348"
+  description: "統計・分析機能"
+  
+- name: "feature: ui-polish"
+  color: "2ed573"
+  description: "UI改善・ポリッシュ"
+  
+- name: "feature: performance"
+  color: "ffa502"
+  description: "パフォーマンス最適化"
+
+# 🔥 Special Labels - 特別なラベル
+- name: "breaking-change"
+  color: "b60205"
+  description: "破壊的変更"
+  
+- name: "security"
+  color: "d73a4a"
+  description: "セキュリティ関連"
+  
+- name: "dependencies"
+  color: "0366d6"
+  description: "依存関係の更新"
+  
+- name: "wontfix"
+  color: "ffffff"
+  description: "対応しない"
+  
+- name: "duplicate"
+  color: "cfd3d7"
+  description: "重複"
+  
+- name: "invalid"
+  color: "e4e669"
+  description: "無効"
+
+# 📊 Analytics Labels - 分析用
+- name: "analytics: user-feedback"
+  color: "eb6f92"
+  description: "ユーザーフィードバック"
+  
+- name: "analytics: performance-issue"
+  color: "f8b500"
+  description: "パフォーマンス課題"
+  
+- name: "analytics: crash-report"
+  color: "dc2626"
+  description: "クラッシュレポート" 

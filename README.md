@@ -237,3 +237,74 @@ npm run test:e2e
 <p align="center">
   Made with ❤️ using React Native & Firebase
 </p>
+
+## 🚀 プロジェクト概要
+
+React Native、Expo、Firebase を使用したクロスプラットフォーム対応のTodoアプリケーションです。
+
+## 🛠️ 技術スタック
+
+- **React Native** - クロスプラットフォーム開発
+- **Expo** - 開発・ビルド環境
+- **Firebase** - 認証・データベース
+- **TypeScript** - 型安全性の確保
+
+## 📱 機能
+
+- ✅ ユーザー認証（Firebase Auth）
+- ✅ Todo CRUD操作
+- ✅ リアルタイム同期
+- ✅ 優先度設定
+- ✅ 期限管理
+- ✅ 統計ダッシュボード
+- ✅ レスポンシブデザイン
+
+## 🚀 開発環境構築
+
+```bash
+# 依存関係のインストール
+npm install
+
+# 開発サーバー起動
+npx expo start
+
+# iOS シミュレーター起動
+npx expo start --ios
+
+# Android エミュレーター起動
+npx expo start --android
+```
+
+## 🏷️ GitHub Labels
+
+このプロジェクトでは、効率的な開発管理のためにGitHubラベルを自動管理しています。
+
+### ラベルの自動セットアップ
+
+```bash
+# GitHub Actions で自動実行されます
+# 手動実行する場合は Actions タブから "Setup GitHub Labels" を実行
+```
+
+### ラベル使用ガイド
+
+詳細なラベル使用方法については [LABELS.md](.github/LABELS.md) をご覧ください。
+
+主要なラベルカテゴリ：
+- 🏷️ **Type**: `feature`, `bug`, `enhancement`
+- 🎯 **Priority**: `priority: critical/high/medium/low`
+- 📱 **Platform**: `platform: ios/android/web/all`
+- 🛠️ **Technology**: `react-native`, `expo`, `firebase`
+- 🎨 **Component**: `component: todo-item/add-form/stats/auth`
+
+## 🤝 コントリビューション
+
+1. Issue を作成（適切なラベルを付与）
+2. フィーチャーブランチを作成
+3. 変更を実装
+4. プルリクエストを作成（ラベルを適用）
+5. レビューを受ける
+
+## 📄 ライセンス
+
+MIT License

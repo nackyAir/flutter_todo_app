@@ -1,0 +1,24 @@
+rules_version='2'
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // TODOコレクションへのアクセス制御
+    match /todos/{todoId} {
+      // 認証されたユーザーのみアクセス可能
+      // かつ、ユーザーは自分のTODOのみアクセス可能
+      allow read, write: if request.auth != null 
+                      && request.auth.uid == resource.data.userId;
+      
+      // 新規作成時は、userIdが認証されたユーザーのUIDと一致する必要がある
+      allow create: if request.auth != null 
+                 && request.auth.uid == request.resource.data.userId;
+    }
+    
+    // ユーザー情報コレクションへのアクセス制御（将来的な拡張用）
+    match /users/{userId} {
+      // ユーザーは自分の情報のみアクセス可能
+      allow read, write: if request.auth != null 
+                      && request.auth.uid == userId;
+    }
+  }
+}
